@@ -1,3 +1,5 @@
+// import confetti from 'https://cdn.skypack.dev/canvas-confetti';
+
 function checkLuck(input){
     document.getElementById("luckButton").style.display = "none";
     document.getElementById("resetButton").style.display = "block";
@@ -7,9 +9,14 @@ function checkLuck(input){
         document.getElementById("output").innerHTML = "You have been converted into a girl";
     }else{
         document.getElementById("output").innerHTML = "You have won a million dollar !!!";
+
+
+        
     }
 }
 
 function reset(){
     location.reload();
 }
+
+
